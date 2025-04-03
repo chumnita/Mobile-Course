@@ -1,16 +1,3 @@
 # ass_2
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter project implements a Login and Registration UI using basic widgets such as TextField, ElevatedButton, and Checkbox. The UI is designed with a clean and modern look while maintaining simple navigation between the login and registration screens. It ensures a user-friendly experience with intuitive interactions and smooth transitions. The project follows best practices for UI design in Flutter, providing a responsive layout that adapts to different screen sizes. 
