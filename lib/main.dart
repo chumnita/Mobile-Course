@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'screens/landing_page.dart';
+import 'screens/explore_screen.dart';
+import 'screens/search_input_screen.dart';
+// import 'screens/search_result_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Worktency',
-      home: LandingPage(),
+      initialRoute: '/', // Start with LandingPage
+      routes: {
+        '/': (context) => const LandingPage(),
+        '/explore': (context) => const ExploreScreen(),
+        '/search': (context) =>SearchInputScreen(),
+      },
     );
   }
 }

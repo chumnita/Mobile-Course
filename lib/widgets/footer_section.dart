@@ -6,7 +6,7 @@ class FooterSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.grey.shade200,
+      color: Colors.white,
       padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -77,7 +77,7 @@ class FooterSection extends StatelessWidget {
 
           const Text(
             '© 2025 Worktency, Inc. All rights reserved.',
-            style: TextStyle(fontSize: 12, color: Colors.grey),
+            style: TextStyle(fontSize: 12, color: Colors.white),
           ),
         ],
       ),
